@@ -77,7 +77,6 @@
     ?>
     <table style="border: 2px solid black; margin: auto; width: 450px;">
         <thead>
-            <?php echo $selectQuery;?>
             <th scope="col"><a href = "viewData.php?order=email">Email <br></a>
             <?php
                 $selectEmailsQuery = "SELECT DISTINCT email FROM ". $_SESSION["tbname"];
